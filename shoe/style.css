@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-optical-sizing: auto;
+}
+main{
+    padding: 40px;
+    display: flex;
+    gap: 16px;
+    max-width: 1174px;
+    margin: 0 auto;
+    .image_section{
+        display: flex;
+        gap: 16px;
+        aside{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+    }
+}
